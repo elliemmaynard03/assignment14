@@ -1,6 +1,6 @@
 const getCountries = async() => {
     try {
-        return (await fetch("https://countries.onrender.com/api/countries")).json();
+        return (await fetch("https://countries-b3z3.onrender.com/api/countries")).json();
     } catch (error) {
         console.log(error);
     }
@@ -82,7 +82,7 @@ const addEditCountry = async(e) => {
 
         console.log(...formData);
 
-        response = await fetch("https://countries.onrender.com/api/countries", {
+        response = await fetch("https://countries-b3z3.onrender.com/api/countries", {
             method: "POST",
             body: formData
         });

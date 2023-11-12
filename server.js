@@ -9,7 +9,7 @@ app.use(cors());
 const http = require("http");
 
 app.use(cors({
-    origin: 'https://countries.onrender.com'
+    origin: 'https://countries-b3z3.onrender.com'
   }));
 
 const upload = multer({ dest: __dirname + "/public/images" });
