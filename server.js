@@ -120,6 +120,8 @@ const validateCountry = (country) => {
     return schema.validate(country);
 };
 
-app.listen(3000, () => {
-    console.log("I'm listening");
+const port = process.env.PORT || 10000;
+
+http.createServer(app).listen(port, () => {
+    console.log(`Server is running on port ${port}`);
 });
