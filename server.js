@@ -26,7 +26,7 @@ let countries = [{
         origin: "1776",
         capitol: "Washington D.C",
         president: "Joe Biden",
-        funfacts:["Has New York City"]
+        funfacts:["Has New York City", "Nicknamed the Big Apple"]
     },
     {
         _id: 2,
@@ -36,7 +36,7 @@ let countries = [{
         origin: "1952",
         capitol: "Tokyo",
         president: "Fumio Kishida",
-        funfacts:["Has Cherry Blossom trees"]
+        funfacts:["Has Cherry Blossom trees", "Ancient traditions"]
        },
        {
         _id: 3,
@@ -46,7 +46,7 @@ let countries = [{
         origin: "1776",
         capitol: "Dublin",
         president: "Michael Daniel Higgins",
-        funfacts:["Has big cliffs"]
+        funfacts:["Has big cliffs", "Gloomy weather"]
        },
        {
         _id: 4,
@@ -56,7 +56,7 @@ let countries = [{
         origin: "1986",
         capitol: "Canberra",
         president: "Anthony Albanese",
-        funfacts:["Has kangaroos"]
+        funfacts:["Has kangaroos", "Australia is both a continent and a country"]
        },
        {
         _id: 5,
@@ -66,7 +66,7 @@ let countries = [{
         origin: "1991",
         capitol: "Moscow",
         president: "Vladimir Putin",
-        funfacts:["Part of Asia and Europe"]
+        funfacts:["Part of Asia and Europe", "Largely uninhabited"]
        },
        {
         _id: 6,
@@ -76,7 +76,7 @@ let countries = [{
         origin: "1922",
         capitol: "Cairo",
         president: "Abdel Fattah el-Sisi",
-        funfacts:["Has the Pyramids of Giza"]
+        funfacts:["Has the Pyramids of Giza", "Buried in tombs"]
        }
 ];
 
